@@ -1,26 +1,43 @@
 
   # ValuationManagementSystemFrontend
 
-  Valuation Management System
-
 This repository contains the complete source code for the Valuation Management System, including both the React frontend and Spring Boot backend.
 The system is used internally for case tracking, valuation assignments, and user role management.
 
 The deployed version is available only inside the office network.
 
 📁 Project Structure
-project-root/
+Valuation Management System/
 │
-├── frontend/              # React application
-│   ├── src/
-│   ├── public/
-│   ├── package.json
-│   └── README (removed, using main README)
+│  README.md
 │
-└── backend/               # Spring Boot application
+├── backend/
+│   │   pom.xml
+│   │   mvnw
+│   │   mvnw.cmd
+│   │   HELP.md
+│   │
+│   ├── src
+│   │    ├── main
+│   │    │     ├── java
+│   │    │     │     └── com/valuation/management/...
+│   │    │     └── resources
+│   │    │            application.properties.example
+│   │    │
+│   │    └── test/
+│   │
+│   └── .gitignore  (Spring Boot version)
+│
+└── frontend/
+    │   package.json
+    │   package-lock.json
+    │   vite.config.ts
+    │   index.html
+    │
+    ├── public/
     ├── src/
-    ├── pom.xml
-    └── application.properties.example
+    └── .gitignore (React version)
+
 
 💻 Frontend (React)
 Tech Stack
@@ -40,11 +57,6 @@ npm run dev
 
 Build for production
 npm run build
-
-Figma Design
-
-The UI design reference is available here:
-https://www.figma.com/design/Opmi7sqnWx2AFUBWmAS3bh/ValuationManagementSystemFrontend
 
 🛠️ Backend (Spring Boot)
 Tech Stack
