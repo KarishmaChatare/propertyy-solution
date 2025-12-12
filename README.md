@@ -6,6 +6,26 @@ The system is used internally for case tracking, valuation assignments, and user
 
 The deployed version is available only within the organization’s internal network.
 
+## 📸 Screenshots
+
+### Login Page
+![Login](./Screenshots/signin.png)
+
+### Dashboard
+![Dashboard](./Screenshots/dashboard.png)
+
+### Case List
+![Case List](./Screenshots/cases.png)
+
+### bank person
+![bank person](./Screenshots/bank person.png)
+
+### settings
+![settings](./Screenshots/settings.png)
+
+### profile
+![profile](./Screenshots/profile.png)
+
 📁 Project Structure
 ```
 ValuationManagementSystem/
@@ -127,22 +147,4 @@ The deployed production system is internal and cannot be accessed publicly.
 Frontend production build runs on Nginx.
 Backend runs on Spring Boot (Java) connected to MySQL.
 
-## 📸 Screenshots
 
-### Login Page
-![Login](./Screenshots/signin.png)
-
-### Dashboard
-![Dashboard](./Screenshots/dashboard.png)
-
-### Case List
-![Case List](./Screenshots/cases.png)
-
-### bank person
-![bank person](./Screenshots/bank person.png)
-
-### settings
-![settings](./Screenshots/settings.png)
-
-### profile
-![profile](./Screenshots/profile.png)
