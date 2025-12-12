@@ -139,7 +139,7 @@ Backend runs on Spring Boot (Java) connected to MySQL.
 ![Case List](./Screenshots/cases.png)
 
 ### bank person
-![bank person](./Screenshots/bank_person.png)
+![bank person](./Screenshots/bank person.png)
 
 ### settings
 ![settings](./Screenshots/settings.png)
