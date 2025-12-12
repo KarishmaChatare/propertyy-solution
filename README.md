@@ -7,65 +7,34 @@ The system is used internally for case tracking, valuation assignments, and user
 The deployed version is available only inside the office network.
 
 📁 Project Structure
+
 ValuationManagementSystem/
-
 │
-
-│ README.md
-
+├── README.md
 │
-
 ├── backend/
-
-│   │  pom.xml
-
-│   │  mvnw
-
-│   │  mvnw.cmd
-
-│   │  HELP.md
-
-│   │
-
-│   ├── src/
-
-│   │    ├── main/
-
-│   │    │    ├── java/
-
-│   │    │    │    └── com/valuation/management/...
-
-│   │    │    └── resources/
-
-│   │    │         └── application.properties.example
-
-│   │    │
-
-│   │    └── test/
-
-│   │
-
-│   └── .gitignore   (Spring Boot version)
-
+│   ├── pom.xml
+│   ├── mvnw
+│   ├── mvnw.cmd
+│   ├── HELP.md
+│   ├── .gitignore
+│   └── src/
+│       ├── main/
+│       │   ├── java/
+│       │   │   └── com/valuation/management/...
+│       │   └── resources/
+│       │       └── application.properties.example
+│       └── test/
 │
-
 └── frontend/
-
-    │  package.json
-    
-    │  package-lock.json
-    
-    │  vite.config.ts
-    
-    │  index.html
-    
-    │
-    
+    ├── package.json
+    ├── package-lock.json
+    ├── vite.config.ts
+    ├── index.html
     ├── public/
-    
     ├── src/
-    
-    └── .gitignore   (React version)
+    └── .gitignore
+
 
 
 💻 Frontend (React)
