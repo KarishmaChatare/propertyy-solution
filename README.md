@@ -11,33 +11,60 @@ ValuationManagementSystem/
 
 │
 
-│  README.md
+│ README.md
+
 │
+
 ├── backend/
+
 │   │  pom.xml
+
 │   │  mvnw
+
 │   │  mvnw.cmd
+
 │   │  HELP.md
+
 │   │
+
 │   ├── src/
+
 │   │    ├── main/
+
 │   │    │    ├── java/
+
 │   │    │    │    └── com/valuation/management/...
+
 │   │    │    └── resources/
+
 │   │    │         └── application.properties.example
+
 │   │    │
+
 │   │    └── test/
+
 │   │
+
 │   └── .gitignore   (Spring Boot version)
+
 │
+
 └── frontend/
+
     │  package.json
+    
     │  package-lock.json
+    
     │  vite.config.ts
+    
     │  index.html
+    
     │
+    
     ├── public/
+    
     ├── src/
+    
     └── .gitignore   (React version)
 
 
