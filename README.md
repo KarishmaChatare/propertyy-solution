@@ -40,7 +40,7 @@ ValuationManagementSystem/
 💻 Frontend (React)
 Tech Stack
 
-React
+React and TypeScript
 
 Vite (or CRA based on your setup)
 
