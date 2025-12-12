@@ -7,7 +7,7 @@ The system is used internally for case tracking, valuation assignments, and user
 The deployed version is available only inside the office network.
 
 📁 Project Structure
-
+```
 ValuationManagementSystem/
 │
 ├── README.md
@@ -34,7 +34,7 @@ ValuationManagementSystem/
     ├── public/
     ├── src/
     └── .gitignore
-
+```
 
 
 💻 Frontend (React)
