@@ -4,7 +4,7 @@
 This repository contains the complete source code for the Valuation Management System, including both the React frontend and Spring Boot backend.
 The system is used internally for case tracking, valuation assignments, and user role management.
 
-The deployed version is available only inside the office network.
+The deployed version is available only within the organization’s internal network.
 
 📁 Project Structure
 ```
@@ -126,4 +126,15 @@ The deployed production system is internal and cannot be accessed publicly.
 
 Frontend production build runs on Nginx.
 Backend runs on Spring Boot (Java) connected to MySQL.
-All external access is restricted—only office network users can open the deployed application.
+
+## 📸 Screenshots
+
+### Login Page
+![Login](./screenshots/login.png)
+
+### Dashboard
+![Dashboard](./screenshots/dashboard.png)
+
+### Case List
+![Case List](./screenshots/case-list.png)
+
