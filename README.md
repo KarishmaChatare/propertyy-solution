@@ -1,5 +1,5 @@
 
-  # ValuationManagementSystemFrontend
+  # ValuationManagementSystem
 
 This repository contains the complete source code for the Valuation Management System, including both the React frontend and Spring Boot backend.
 The system is used internally for case tracking, valuation assignments, and user role management.
