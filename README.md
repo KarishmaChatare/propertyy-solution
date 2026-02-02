@@ -142,6 +142,10 @@ Internal deployment support
 This repository includes only the source code.
 The deployed production system is internal and cannot be accessed publicly.
 
+© 2025 Karishma Chatare. All rights reserved.
+This project is for portfolio demonstration only.
+
+
 📦 Deployment Notes
 
 Frontend production build runs on Nginx.
